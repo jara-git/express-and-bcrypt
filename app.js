@@ -10,3 +10,6 @@ app.listen(3000, (error) => {
     }
 })
 
+app.get('/', (request, response) =>{
+    response.send('connected');
+})
